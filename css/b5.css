@@ -1,0 +1,35 @@
+textarea{
+    height: 30px;
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+.form{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(222, 219, 219);
+    padding: 10px;
+}
+input{
+    width: 100%;
+}
+label{
+    display: block;
+}
+button{
+    color: white;
+    background-color: rgb(46, 120, 224);
+    height: 30px;
+    width: 80px;
+    margin: 5px 30px;
+}
+.form-content{
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: rgb(241, 232, 176);
+}
+.form-component{
+    margin: 20px 20px;
+}

@@ -1,0 +1,13 @@
+.content{
+    padding: 3%;
+    color:white;
+    text-align: center;
+    background-image: url('https://t4.ftcdn.net/jpg/03/00/08/93/360_F_300089341_0ajQbuLHDF9r2zn8AubgccvmKcHuI4t9.jpg');
+}
+.button{
+    background-color: orangered;
+    padding: 10px;
+}
+.title{
+    margin-bottom: 30px;
+}

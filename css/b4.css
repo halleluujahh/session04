@@ -1,0 +1,37 @@
+textarea{
+    height: 30px;
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+.form{
+    margin: auto;
+    width: 30%;
+    height: 50%;
+    background-color: rgb(199, 199, 199);
+    padding: 10px;
+}
+input{
+    width: 100%;
+}
+label{
+    display: block;
+}
+button{
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 80px;
+    margin: 5px 20px;
+}
+.form-content{
+    margin: 20px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
+    background-color: white;
+}
+.form-component{
+    margin: 20px 20px;
+}

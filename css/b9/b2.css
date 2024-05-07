@@ -1,0 +1,38 @@
+.component{
+    display: flex;
+    
+}
+.component-details{
+    width: 20%;
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+.component-details{
+    text-align: center;
+}
+.component-details h3 {
+    text-align: start;
+}
+.component-details button {
+    text-align: start;
+}
+.component-details p {
+    text-align: start;
+}
+button{
+    background-color: rgb(7, 149, 149);
+    color: white;
+    padding: 5px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+body{
+    background-color: rgb(215, 213, 213);
+}

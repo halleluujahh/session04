@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    background-color: black;
+    color:white;
+    padding: 30px;
+}
+h1{
+    margin-right: 60%;
+}
+.navigation{
+    text-align: center;
+    display: flex;
+    font-size: larger;
+}
+span{
+    margin: 30px 20px;
+}
+.body{
+    width: 30%;
+    margin: auto;
+}
+h3{
+    text-align: center;
+}
+label{
+    display: block;
+    font-weight: 600;
+}
+input{
+    width: 100%;
+}
+select{
+    width: 100%;
+    background-color: rgb(181, 181, 181);
+}
+button{
+    margin: 20px 0px;
+    color:white;
+    padding: 5px;
+    background-color: black;
+}
+.footer{
+    margin: 20px 0px;
+}

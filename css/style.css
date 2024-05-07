@@ -1,0 +1,23 @@
+header{
+    height: 100px;
+    background-color: #eaeaea;
+    border: 1px solid black;
+    display: flex;
+}
+div:first-child{
+    margin-right: 100px;
+}
+img{
+    width: 150px;
+}
+.item{
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: Cabin, sans-serif;
+}
+.lang{
+    width: 450px;
+    text-align: right;
+}
