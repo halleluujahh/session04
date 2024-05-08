@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Select Card</h1>
-    <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
-</body>
+    <link rel="stylesheet" href="../../css/b9/b3.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>Select Card</h1>
+      <div class="button">
+        <button>
+          <img
+            src="https://assets-global.website-files.com/6080fab40473f72690bcbd17/621360d4124d0034ec14e5ef_checkout-icon-mastercard.png"
+            alt=""
+          />
+        </button>
+        <button>
+          <img
+            src="https://assets-global.website-files.com/6080fab40473f72690bcbd17/621360edba875023fbb68783_checkout-icon-paypal.png"
+            alt=""
+          />
+        </button>
+        <button>
+          <img
+            src="https://assets-global.website-files.com/6080fab40473f72690bcbd17/62136097657209fd45b1fe5d_checkout-icon-visa.png"
+            alt=""
+          /></button
+        ><button>
+          <img
+            src="https://assets-global.website-files.com/6080fab40473f72690bcbd17/6213613c8a2bd76afd36478d_48px_amex.png"
+            alt=""
+          /></button
+        ><button>
+          <img
+            src="https://assets-global.website-files.com/6080fab40473f72690bcbd17/62136120e4bf59f9582c647e_48px-discover.png"
+            alt=""
+          />
+        </button>
+      </div>
+      <br />
+      <hr />
+      <br />
+      <div class="card">
+        <label for="card-number">Card Number</label>
+        <input type="number" id="card-number"/>
+      </div>
+      <div class="flex">
+        <div class="expire">
+            <label for="expire-date">Expiry Date</label>
+            <input type="date" name="" id="expire-date">
+          </div>
+          <div class="cvv">
+            <label for="cvv">CVC/CVV</label>
+            <input type="password" name="" id="cvv">
+          </div>
+      </div>
+      <button id="savebtn">Save</button>
+    </div>
+  </body>
 </html>

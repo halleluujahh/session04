@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+body{
+    background-color: rgb(224, 224, 224);
+    width: 35%;
+    margin: 20px auto;
+}
+.content{
+    background-color: white;
+    padding: 20px;
+}
+p{
+    color: grey;
+}
+.content-details
+{
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    color: grey;
+}
+.price{
+    font-weight: 600;
+}
+#Total{
+    font-weight: 1000;
+    padding: 2px;
+    background-color: rgb(172, 172, 252);
+}
+.content3-detail{
+    display: flex; 
+    color: grey;
+    justify-content: space-between;
+}
